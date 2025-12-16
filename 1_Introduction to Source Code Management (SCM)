@@ -1,0 +1,18 @@
+### 1.1 What is SCM, VCS and GIT? 
+
+- Definition of Source Code Management
+
+It helps in collaborative work and keeps the track of changes, additions and updation, making it easy for developers to revert, revise or track. 
+
+- Why SCM is critical in DevOps and Agile environments
+
+
+- Problems solved by SCM in real-world teams
+- Role of SCM in the Software Development Life Cycle (SDLC)
+
+### 1.2 Types of SCM Systems
+- Centralized Source Code Management
+- Distributed Source Code Management
+- Practical examples and use cases
+
+---
