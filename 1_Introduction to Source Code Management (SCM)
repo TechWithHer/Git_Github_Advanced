@@ -1,18 +1,29 @@
-### 1.1 What is SCM, VCS and GIT? 
+# 📌 MODULE 1: SCM, VCS & Git Fundamentals
 
-- Definition of Source Code Management
+### 1.1 Source Code Management (SCM)
+- What is SCM and why it is required
+- Role of SCM in DevOps and Agile
+- Centralized vs Distributed SCM
 
-It helps in collaborative work and keeps the track of changes, additions and updation, making it easy for developers to revert, revise or track. 
+### 1.2 Version Control System (VCS)
+- What is a VCS
+- File system vs Version Control System
+- Types of VCS (Local, Centralized, Distributed)
 
-- Why SCM is critical in DevOps and Agile environments
+### 1.3 Git Basics
+- What is Git (full form and history)
+- Why Git is used in DevOps
+- Git architecture:
+  - Working Directory
+  - Staging Area
+  - Local Repository
+  - Remote Repository
 
-
-- Problems solved by SCM in real-world teams
-- Role of SCM in the Software Development Life Cycle (SDLC)
-
-### 1.2 Types of SCM Systems
-- Centralized Source Code Management
-- Distributed Source Code Management
-- Practical examples and use cases
+### 1.4 Git Platforms
+- GitHub
+- GitLab
+- Bitbucket
+- AWS CodeCommit
+- Azure Repos
 
 ---
