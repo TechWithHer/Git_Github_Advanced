@@ -6,6 +6,9 @@ Feel free to fork it or suggest additions and improvements.
 
 See you all, on the other side :) 
 
+📌 *This syllabus serves as both a learning guide and a professional knowledge base for DevOps engineers.*
+
+
 ---
 
 # 📘 Git & GitHub for DevOps — Complete Syllabus (Concepts + Hands-on)
@@ -15,295 +18,157 @@ It covers **core concepts, advanced topics, best practices, and hands-on tasks**
 
 ---
 
-## 📌 MODULE 1: Introduction to Source Code Management (SCM)
+# 📘 Git & GitHub for DevOps — Structured Syllabus
 
-### 1.1 What is Source Code Management (SCM)
-- Definition of Source Code Management
-- Why SCM is critical in DevOps and Agile environments
-- Problems solved by SCM in real-world teams
-- Role of SCM in the Software Development Life Cycle (SDLC)
-
-### 1.2 Types of SCM Systems
-- Centralized Source Code Management
-- Distributed Source Code Management
-- Practical examples and use cases
+This repository documents my learning journey of **Git and GitHub from a DevOps perspective**.  
+The syllabus is structured into **5 high-level modules**, focusing on **concepts, collaboration, best practices, and hands-on usage**.
 
 ---
 
-## 📌 MODULE 2: Version Control System (VCS) Fundamentals
+## 📌 MODULE 1: SCM, VCS & Git Fundamentals
 
-### 2.1 What is a Version Control System
-- Definition of VCS
-- Evolution from local file systems to VCS
-- Importance of VCS for collaboration
+### 1.1 Source Code Management (SCM)
+- What is SCM and why it is required
+- Role of SCM in DevOps and Agile
+- Centralized vs Distributed SCM
 
-### 2.2 File System vs Version Control System
-- Limitations of traditional file systems
-- Advantages of version control systems
-- DevOps-focused comparison
+### 1.2 Version Control System (VCS)
+- What is a VCS
+- File system vs Version Control System
+- Types of VCS (Local, Centralized, Distributed)
 
-### 2.3 Types of Version Control Systems
-- Local Version Control System
-- Centralized Version Control System
-- Distributed Version Control System
+### 1.3 Git Basics
+- What is Git (full form and history)
+- Why Git is used in DevOps
+- Git architecture:
+  - Working Directory
+  - Staging Area
+  - Local Repository
+  - Remote Repository
 
----
-
-## 📌 MODULE 3: Git — Core Concepts
-
-### 3.1 What is Git
-- Full form of Git
-- History and creator of Git
-- Why Git is fast, scalable, and reliable
-
-### 3.2 Git Architecture
-- Working Directory
-- Staging Area (Index)
-- Local Repository
-- Remote Repository
-
-### 3.3 Git Object Model (Conceptual Overview)
-- Blob
-- Tree
-- Commit
-- HEAD
-
----
-
-## 📌 MODULE 4: Git Platforms & Repositories
-
-### 4.1 Git Hosting Platforms
+### 1.4 Git Platforms
 - GitHub
 - GitLab
 - Bitbucket
 - AWS CodeCommit
 - Azure Repos
 
-### 4.2 Comparison of Git Platforms
-- Enterprise vs startup usage
-- Cloud and DevOps integrations
-- CI/CD ecosystem support
+---
 
-### 4.3 GitHub in DevOps
-- Why GitHub is widely used in DevOps
-- GitHub as a collaboration and automation platform
+## 📌 MODULE 2: Git Workflow & Core Commands
+
+### 2.1 Git File States
+- Tracked and Untracked files
+- Modified, Staged, and Committed states
+- File lifecycle in Git
+
+### 2.2 Essential Git Commands
+- Repository setup:
+  - `git init`
+  - `git clone`
+- Daily workflow:
+  - `git status`
+  - `git add`
+  - `git commit`
+  - `git diff`
+- History and inspection:
+  - `git log`
+  - `git show`
+  - `git blame`
+
+### 2.3 Git Ignore & Basic Hygiene
+- Purpose of `.gitignore`
+- Avoiding unnecessary files
+- Common beginner mistakes
 
 ---
 
-## 📌 MODULE 5: Git Repository States & File Tracking
+## 📌 MODULE 3: Authentication, Access & Security
 
-### 5.1 Git File States
-- Untracked files
-- Tracked files
-  - Modified
-  - Staged
-  - Committed
-
-### 5.2 Understanding Git Status
-- How Git detects file changes
-- Lifecycle of a file in Git
-
----
-
-## 📌 MODULE 6: Essential Git Commands (Cheat Sheet)
-
-### 6.1 Repository Setup & Configuration
-- `git init`
-- `git clone`
-- `git config` (local, global)
-
-### 6.2 Daily Development Commands
-- `git status`
-- `git add`
-- `git commit`
-- `git diff`
-
-### 6.3 History & Inspection Commands
-- `git log`
-- `git show`
-- `git blame`
-
----
-
-## 📌 MODULE 7: Authentication & Access Management
-
-### 7.1 Authentication Methods
-- Password-based authentication (deprecated)
+### 3.1 Authentication Methods
+- Password authentication (deprecated)
 - Personal Access Tokens (PAT)
-- SSH authentication
+- SSH-based authentication
 
-### 7.2 Personal Access Tokens (PAT)
+### 3.2 Personal Access Tokens (PAT)
 - What is a PAT
 - Why PAT is required
 - Token scopes and permissions
-- Security best practices
+- Important notes and best practices
 
-### 7.3 SSH Keys
-- What are SSH keys
-- Public vs Private keys
+### 3.3 SSH Keys
+- Public and private keys
 - How SSH authentication works
-- Why SSH is preferred in DevOps workflows
-
-### 7.4 Important Notes on Access Keys
-- Key rotation
-- Security do’s and don’ts
-- Common mistakes to avoid
+- Why SSH is preferred in DevOps
 
 ---
 
-## 📌 MODULE 8: Branching in Git
+## 📌 MODULE 4: Branching, Collaboration & History Management
 
-### 8.1 What is Branching
-- Concept of branches
-- Why branching is important for teams
+### 4.1 Branching in Git
+- What is branching
+- Why branching matters in teams
+- Branch commands:
+  - `git branch`
+  - `git checkout`
+  - `git switch`
+  - `git merge`
 
-### 8.2 Branch Management Commands
-- `git branch`
-- `git checkout`
-- `git switch`
-- `git merge`
-
-### 8.3 Git Branching Strategies (Business Perspective)
+### 4.2 Branching Strategies (Industry Use)
 - Feature branching
 - Git Flow
 - Trunk-based development
-- Release branches
-- Hotfix branches
+- Release and hotfix branches
 
-### 8.4 Optimized Branching for Teams
-- Startup vs enterprise workflows
-- Choosing the right strategy
-- Real-world DevOps examples
+### 4.3 Collaboration on GitHub
+- Pull Requests (PR)
+- Adding reviewers and collaborators
+- Code review workflow
 
----
-
-## 📌 MODULE 9: Collaboration in GitHub
-
-### 9.1 Pull Requests (PR)
-- What is a Pull Request
-- Pull Request workflow
-- Best practices for PRs
-
-### 9.2 Code Reviews
-- Adding reviewers
-- Review comments and approvals
-- Importance of code reviews in DevOps
-
-### 9.3 Collaborators & Permissions
-- Repository roles
-- Access control in GitHub
-- Security considerations
+### 4.4 History Management & Undoing Changes
+- `git revert`
+- `git reset`
+  - Soft
+  - Mixed
+  - Hard
+- Revert vs Reset
 
 ---
 
-## 📌 MODULE 10: Undoing Changes in Git
+## 📌 MODULE 5: Advanced Git Operations & Hands-on Practice
 
-### 10.1 Git Revert
-- What `git revert` does
-- When to use revert
-- Revert in shared repositories
-
-### 10.2 Git Reset
-- Understanding `git reset`
-- Soft reset
-- Mixed reset
-- Hard reset
-- Risks and precautions
-
-### 10.3 Revert vs Reset
-- Conceptual comparison
-- Real-world usage scenarios
-
----
-
-## 📌 MODULE 11: Advanced Git Operations
-
-### 11.1 Git Stash
-- What is stashing
-- Use cases
-- Applying and dropping stashes
-
-### 11.2 Git Cherry-Pick
-- Concept of cherry-picking
-- When to use cherry-pick
-- Risks in production workflows
-
-### 11.3 Git Rebase
+### 5.1 Advanced Git Operations
+- `git stash`
+- `git cherry-pick`
+- `git rebase`
 - Rebase vs merge
-- Interactive rebase
-- Maintaining a clean commit history
 
----
-
-## 📌 MODULE 12: Logs, History & Maintenance
-
-### 12.1 Git Logs
+### 5.2 Logs & Maintenance
+- Git logs and filtering
 - Log slicing
-- Filtering commits
-- Searching commit history
+- Concept of log rotation
 
-### 12.2 Log Rotation (Conceptual)
-- Importance of logs in DevOps
-- Git logs vs system logs
-- Maintenance best practices
-
----
-
-## 📌 MODULE 13: Important Notes & Best Practices
-
-### 13.1 Git Best Practices
+### 5.3 Best Practices & Notes to Remember
 - Commit message standards
-- Small and meaningful commits
 - Branch naming conventions
+- Security reminders
+- Common mistakes to avoid
 
-### 13.2 Security Best Practices
-- Avoid committing secrets
-- Using `.gitignore` effectively
-- Secure handling of credentials
-
-### 13.3 Common Mistakes to Avoid
-- Misuse of force push
-- Working directly on the main branch
-- Poor commit hygiene
-
----
-
-## 📌 MODULE 14: Hands-on Tasks & Assignments
-
-### Task 1: Git Basics
-- Initialize a repository
-- Track files
-- Commit changes
-
-### Task 2: Branching & Merging
-- Create feature branches
-- Merge branches
-- Resolve merge conflicts
-
-### Task 3: GitHub Collaboration
-- Create a Pull Request
-- Add reviewers
-- Review and merge code
-
-### Task 4: Advanced Operations
-- Practice reset vs revert
-- Use stash and reapply changes
-- Cherry-pick specific commits
-
-### Task 5: Business Workflow Simulation
-- Apply a real-world branching strategy
-- Simulate release and hotfix workflows
+### 5.4 Hands-on Tasks
+- Initialize and manage a Git repository
+- Implement branching and merging
+- Create and review Pull Requests
+- Practice reset, revert, stash, and rebase
+- Simulate a real-world team workflow
 
 ---
 
-## 📌 MODULE 15: Summary & Learning Outcomes
+## 🎯 Learning Outcomes
+- Strong understanding of Git and GitHub fundamentals
+- Ability to work in collaborative DevOps environments
+- Knowledge of industry-standard branching strategies
+- Confidence in using Git for real-world projects
 
-- Strong understanding of Git and GitHub concepts
-- Ability to work in team-based DevOps workflows
-- Readiness to integrate Git with CI/CD pipelines
-- Industry-aligned Git best practices
 
----
 
-📌 *This syllabus serves as both a learning guide and a professional knowledge base for DevOps engineers.*
 
