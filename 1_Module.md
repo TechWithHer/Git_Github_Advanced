@@ -6,6 +6,7 @@
 - Centralized vs Distributed SCM:
 
 -- Centralized SCM: Single central repository, Requires network connection to commit, Limited offline work | Example: SVN
+
 -- Distributed SCM: Every developer has a full repository copy, Commits work offline, Faster, safer, and more flexible | Example: Git, Murcurial, Bazaar
 
 Common users of Centralized SCM: 
@@ -16,6 +17,11 @@ Highly controlled environments where strict access control is more important tha
 In short:
 Centralized = one source
 Distributed = many synchronized sources
+
+Git = tool (VCS)
+GitHub = platform (SCM)
+SCM = discipline/process
+VCS = version tracking system
 
 
 ### 1.2 Version Control System (VCS)
