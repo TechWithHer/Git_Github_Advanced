@@ -1,5 +1,5 @@
 
-*#Helpful Links*#
+## Helpful Links ##
 
 Simulator : https://learngitbranching.js.org/ 
 
@@ -10,5 +10,6 @@ https://www.youtube.com/watch?v=0chZFIZLR_0
 GIT QUIZ: https://www.w3schools.com/quiztest/quiztest.asp?qtest=GIT 
 
 https://cli.github.com/manual/gh
+
 
 
