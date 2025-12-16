@@ -1,3 +1,13 @@
+Hello Friends, 
+
+Welcome to my repo. 
+I understand Git/Github can be overwhelming because we all have gone through this stage, so I have created this repo for you to revise and do handson. 
+Feel free to fork it or suggest additions and improvements. 
+
+See you all, on the other side :) 
+
+---
+
 # 📘 Git & GitHub for DevOps — Complete Syllabus (Concepts + Hands-on)
 
 This repository documents my complete learning journey of **Git and GitHub from a DevOps perspective**.  
@@ -296,3 +306,4 @@ It covers **core concepts, advanced topics, best practices, and hands-on tasks**
 ---
 
 📌 *This syllabus serves as both a learning guide and a professional knowledge base for DevOps engineers.*
+
