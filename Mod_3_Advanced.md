@@ -1,4 +1,4 @@
-## 📌 MODULE 5: Advanced Git Operations & Hands-on Practice
+## 📌 MODULE 3: Advanced Git Operations & Hands-on Practice
 
 ### 5.1 Advanced Git Operations
 - `git stash`
