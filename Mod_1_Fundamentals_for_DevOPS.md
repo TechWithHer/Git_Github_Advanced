@@ -1,6 +1,3 @@
-Here’s a fully organized and comprehensive version of your **Module 1** content, keeping everything intact, avoiding redundancies, and adding hands-on emphasis wherever possible. I’ve structured it as a single, cohesive body.
-
----
 
 # 📘 MODULE 1: SCM, VCS, Git & GitHub Fundamentals for DevOps
 
