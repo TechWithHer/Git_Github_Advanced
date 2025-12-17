@@ -187,7 +187,34 @@ Clearly explain:
 Example:
 ```text
 This project demonstrates a production-ready GitHub workflow
+This project demonstrates a production-ready GitHub workflow
 that enforces code quality, automates testing, and enables
 continuous delivery using GitHub Actions.
-s a **product**, not just fil
+```
+## 🔄 DevOps Workflow Diagram (ASCII)
+
+Developer
+   |
+   v
+Feature Branch
+   |
+   v
+Pull Request
+   |
+   +--> Code Review
+   |
+   +--> CI Pipeline
+   |       - Lint
+   |       - Test
+   |       - Security Scan
+   |
+   v
+Approved & Merged
+   |
+   v
+Deployment Pipeline
+   |
+   v
+Production
+
 
