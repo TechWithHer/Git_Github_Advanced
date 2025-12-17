@@ -647,3 +647,317 @@ Automated CI checks on Pull Requests using GitHub Actions
 
 ```
 ```
+````md
+# 📘 MODULE 3 – Git Hygiene & History Control
+
+---
+
+## 🎯 Module Objective
+
+This module focuses on **keeping Git history clean, meaningful, and safe**.  
+Good Git hygiene makes repositories easier to:
+- Review
+- Debug
+- Audit
+- Maintain at scale
+
+> 🔑 **Rule of thumb:**  
+> Git history is a communication tool, not just a backup.
+
+---
+
+## 🧠 What to Study
+
+---
+
+## 🔀 Merge vs Rebase
+
+Understanding the difference is critical for team-based DevOps workflows.
+
+---
+
+### 🔁 Merge
+
+**What it does:**  
+Combines branches by creating a **merge commit**.
+
+```text
+A---B---C main
+     \
+      D---E feature
+           \
+            M  (merge commit)
+````
+
+**Command:**
+
+```bash
+git merge feature/add-readme-section
+```
+
+**Pros:**
+
+* Preserves full history
+* Safe for shared branches
+* Shows exactly when branches diverged
+
+**Cons:**
+
+* History can become noisy
+* Extra merge commits
+
+**Best used when:**
+
+* Working on shared branches
+* Merging feature → main via Pull Request
+* Auditability is important
+
+---
+
+### 🔂 Rebase
+
+**What it does:**
+Replays commits on top of another branch, creating a **linear history**.
+
+```text
+Before:
+A---B---C main
+     \
+      D---E feature
+
+After Rebase:
+A---B---C---D'---E'
+```
+
+**Command:**
+
+```bash
+git rebase main
+```
+
+**Pros:**
+
+* Clean, linear history
+* Easier to read commit logs
+
+**Cons:**
+
+* Rewrites commit history
+* Dangerous on shared branches
+
+**Best used when:**
+
+* Cleaning up local feature branches
+* Preparing a PR
+* Working solo on a branch
+
+> 🚨 **Never rebase shared branches.**
+
+---
+
+## 🧹 Squash Commits
+
+### What Is Squashing?
+
+Combining multiple small commits into **one meaningful commit**.
+
+Example:
+
+```text
+Before:
+fix typo
+fix typo again
+update readme
+final fix
+
+After Squash:
+Add README usage section
+```
+
+### Why Squash?
+
+* Removes noise
+* Improves readability
+* One commit = one logical change
+
+### How Squash Is Done (PR Level)
+
+GitHub allows:
+
+* **Squash and merge**
+* Keeps `main` history clean
+
+> ✅ Recommended for most feature branches.
+
+---
+
+## ✍️ Rewriting History Responsibly
+
+Rewriting history includes:
+
+* Rebase
+* Reset
+* Amend commits
+
+### Allowed When:
+
+* Working on local branches
+* Feature branch not yet shared
+* Fixing mistakes before PR
+
+### Dangerous When:
+
+* Branch is already pushed and used by others
+* Code exists in production
+
+> 🔴 **Golden Rule:**
+> Never rewrite history that others depend on.
+
+---
+
+## 🧪 Hands-On Lab
+
+---
+
+## 🧩 Exercise 1 – Rebase Flow
+
+### Step 1: Switch to Feature Branch
+
+```bash
+git checkout feature/add-readme-section
+```
+
+---
+
+### Step 2: Rebase on `main`
+
+```bash
+git rebase main
+```
+
+📌 Purpose:
+Bring your feature branch up to date with the latest production code.
+
+---
+
+### Step 3: Resolve Conflicts (If Any)
+
+If Git reports conflicts:
+
+```bash
+git status
+```
+
+* Open conflicted files
+* Fix conflicts manually
+* Mark as resolved:
+
+```bash
+git add <file>
+git rebase --continue
+```
+
+---
+
+### 🧠 Learning Outcome
+
+* Conflicts are resolved **once**
+* History stays linear
+* Cleaner PR diff
+
+---
+
+## 🧩 Exercise 2 – Reset (Safe Practice)
+
+---
+
+### 🔹 Soft Reset
+
+```bash
+git reset --soft HEAD~1
+```
+
+**What it does:**
+
+* Removes last commit
+* Keeps changes staged
+
+**Use when:**
+
+* Commit message is wrong
+* Want to combine commits
+
+---
+
+### 🔹 Hard Reset
+
+```bash
+git reset --hard HEAD~1
+```
+
+**What it does:**
+
+* Deletes last commit
+* Deletes changes completely
+
+**Use when:**
+
+* Experiment went wrong
+* You want to discard changes entirely
+
+> ⚠️ **Hard reset permanently deletes work.**
+
+---
+
+## 📌 Comparison Summary
+
+| Command  | Affects History | Keeps Changes | Risk Level |
+| -------- | --------------- | ------------- | ---------- |
+| `--soft` | Yes             | Yes (staged)  | Low        |
+| `--hard` | Yes             | No            | High       |
+
+---
+
+## 📄 Documentation Section
+
+---
+
+## 🚫 When NOT to Rewrite History
+
+### Do NOT Rewrite History When:
+
+1. Branch is already pushed to remote
+2. Branch is shared with teammates
+3. Code has been merged into `main`
+4. Commit is part of production release
+5. CI/CD pipelines rely on commit SHA
+
+### Why?
+
+* Breaks teammate branches
+* Causes merge conflicts
+* Invalidates audit logs
+* Damages trust in repo history
+
+> ❗ **In teams, broken history is worse than messy history.**
+
+---
+
+## ✅ Key Takeaways
+
+* Merge = safe, verbose history
+* Rebase = clean, dangerous if misused
+* Squash = clarity and professionalism
+* Reset is powerful — use carefully
+* History is a contract with your team
+
+---
+
+📌 *This module reflects enterprise Git standards followed by mature DevOps teams.*
+
+➡️ **Next Module:**
+Tagging, Releases & Semantic Versioning
+
+```
+```
+
