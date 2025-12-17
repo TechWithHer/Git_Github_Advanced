@@ -1,6 +1,6 @@
 
 
-# 📘 MODULE 4: Branching, Collaboration & History Management
+# 📘 MODULE 2: Branching, Collaboration & History Management
 
 ---
 
