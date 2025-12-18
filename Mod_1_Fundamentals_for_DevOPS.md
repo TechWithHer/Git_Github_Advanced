@@ -96,8 +96,6 @@ A Version Control System (VCS) is software that **tracks changes in files**, mai
 | State     | Description                        |
 | --------- | ---------------------------------- |
 | Untracked | New file, not added to Git         |
-| Tracked   | Already under Git version control  |
-| Modified  | Tracked file changed locally       |
 | Staged    | Ready to commit (`git add`)        |
 | Committed | Saved snapshot in local repository |
 
