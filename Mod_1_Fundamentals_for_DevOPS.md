@@ -100,7 +100,7 @@ A Version Control System (VCS) is software that **tracks changes in files**, mai
 | Committed | Saved snapshot in local repository |
 
 **File Lifecycle Example:**
-Untracked → Modified → Staged → Committed → Pushed to Remote
+Untracked → Staged → Committed → Pushed to Remote
 
 ---
 
