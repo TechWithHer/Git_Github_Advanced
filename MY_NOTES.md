@@ -31,6 +31,8 @@ The library repo can evolve independently, and you can update the commit in the 
 
 💡 Tip: Submodules are perfect when you reuse libraries across multiple projects, but if you want a simpler approach, sometimes just copying the code or using Git subtree might be easier
 
+#ErrorS I faced: Rebasing and history of both the branches are different\
+
 
 
 
