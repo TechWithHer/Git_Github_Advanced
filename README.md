@@ -8,11 +8,6 @@ See you all, on the other side :)
 
 📌 *This syllabus serves as both a learning guide and a professional knowledge base for DevOps engineers.*
 
-## 🎥 Module 1 Video
-
-[![Watch the demo](https://github.com/TechWithHer/Git_Github_Advanced/blob/main/screenshots/Ayushi%20YT%20Channel.png)](https://www.youtube.com/watch?v=G8ujHY_cRo4)
-
-
 ---
 
 # 📘 Git & GitHub for DevOps — Complete Syllabus (Concepts + Hands-on)
@@ -46,6 +41,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 - Ability to work in collaborative DevOps environments
 - Knowledge of industry-standard branching strategies
 - Confidence in using Git for real-world projects
+
 
 
 
