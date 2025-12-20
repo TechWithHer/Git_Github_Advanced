@@ -29,7 +29,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 
 ## 1. Module 1 - Fundamentals for DevOps
 
-[![Module 1 Link] https://github.com/TechWithHer/Git_Github_Advanced/blob/main/Mod_1_Fundamentals_for_DevOPS.md)
+[Module 1 Link](https://github.com/TechWithHer/Git_Github_Advanced/blob/main/Mod_1_Fundamentals_for_DevOPS.md)
 
 [![Watch the demo](https://github.com/TechWithHer/Git_Github_Advanced/blob/main/screenshots/Ayushi%20YT%20Channel.png)](https://www.youtube.com/watch?v=G8ujHY_cRo4)
    
@@ -42,6 +42,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 - Ability to work in collaborative DevOps environments
 - Knowledge of industry-standard branching strategies
 - Confidence in using Git for real-world projects
+
 
 
 
