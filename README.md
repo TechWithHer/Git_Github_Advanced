@@ -1,3 +1,6 @@
+[![Watch the demo](https://github.com/TechWithHer/Git_Github_Advanced/blob/main/screenshots/Github%20Repo%20Banner%20%20(1).png
+)]
+
 Hello Friends, 
 
 Welcome to my repo. 
@@ -41,6 +44,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 - Ability to work in collaborative DevOps environments
 - Knowledge of industry-standard branching strategies
 - Confidence in using Git for real-world projects
+
 
 
 
