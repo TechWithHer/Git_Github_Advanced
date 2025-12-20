@@ -10,7 +10,7 @@ See you all, on the other side :)
 
 ## 🎥 Module 1 Video
 
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=G8ujHY_cRo4)
 
 
 ---
@@ -172,6 +172,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 - Ability to work in collaborative DevOps environments
 - Knowledge of industry-standard branching strategies
 - Confidence in using Git for real-world projects
+
 
 
 
