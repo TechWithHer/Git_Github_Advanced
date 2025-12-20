@@ -8,6 +8,8 @@ See you all, on the other side :)
 
 📌 *This syllabus serves as both a learning guide and a professional knowledge base for DevOps engineers.*
 
+Video : <https://www.youtube.com/watch?v=G8ujHY_cRo4> 
+
 
 ---
 
@@ -168,6 +170,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 - Ability to work in collaborative DevOps environments
 - Knowledge of industry-standard branching strategies
 - Confidence in using Git for real-world projects
+
 
 
 
