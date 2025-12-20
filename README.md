@@ -37,7 +37,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 </a>
 
    
-## 2. Module 2 - 
+## 2. Module 2 - Branching, Collaboration & History Management
 
 ## 3. Module 3 - 
 
@@ -46,6 +46,7 @@ The syllabus is structured into **5 high-level modules**, focusing on **concepts
 - Ability to work in collaborative DevOps environments
 - Knowledge of industry-standard branching strategies
 - Confidence in using Git for real-world projects
+
 
 
 
